@@ -1,0 +1,23 @@
+<HTML>
+    <head>
+    
+    </head>
+    <body>
+       <H4 ALIGN='center'> $stato </H4>
+            <fieldset> 
+            <DIV class='aggiungi' ALIGN='center'>
+            <H3 ALIGN='center'> Aggiungi newsletter </H3>   
+            <DIV class='aggiungi_sinistra' ALIGN='right'> 
+            <FORM id='aggiungi_news' METHOD='POST' ACTION='operazioni.php'><BR>
+            Aggiungi titolo newsletter: <INPUT TYPE='text' name='titolo_news' required> </INPUT> <BR> <BR>
+            Aggiungi codice cliente: <INPUT TYPE='text' name='cod_utente_news' required> </INPUT> <BR>  <BR>     
+            Aggiungi data: <INPUT TYPE='date' name='data_news' required> </INPUT> <BR>    </DIV>
+            <DIV class='aggiungi_destra' ALIGN='center'>    
+            Scrivi qui il testo della newsletter <textarea name='testo_news' form='aggiungi_news' rows='5' cols='60' required></textarea> <BR>
+            <BR> <INPUT TYPE='submit' name='button' value='Aggiungi Newsletter' ></INPUT>&nbsp &nbsp &nbsp &nbsp &nbsp 
+            <INPUT TYPE='reset' value=' Ripristina '> </INPUT> 
+                </DIV> 
+                </FORM>  
+                </fieldset> 
+                </DIV><BR><BR>
+</HTML>

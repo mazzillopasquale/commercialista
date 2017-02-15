@@ -1,0 +1,19 @@
+*{font-family:arial; font-size:90%, color:black;}
+button,submit,reset {
+  background-color: #FF8800; 
+  border: 2px solid #FCA800; 
+  color: #fff;               
+  font-weight: bold;         
+  padding: 0;               
+  height: 25px;             
+  width: 80px;               
+}
+
+DIV.padre_sopra{ position:relative; height:120; whith:60%; background:#00ed00; min-width:650px;}
+DIV.sinistra_sopra{position:absolute; right:60%; top:20; left:30; height:100; color:black; min-width:250px}
+DIV.destra_sopra{position:absolute; right:0; top:25; left:30; color:black; right:30; min-width: 600px}
+
+DIV.padre_sotto{position:relative; height:80%; whith:80%; min-width: 700px; border-style:none; black;}
+DIV.sinistra_sotto{position:absolute; top:40;right:32%; left:30;height:100%; color:black; min-width: 550px;border-style:solid;border-width: thin;border-color: darkgray;}
+DIV.destra_sotto{position:absolute; right:0; top:40; left:68%; height:100%; color:black; right:30; min-width: 280px; border-style:inherit;  border-color: black;}
+
